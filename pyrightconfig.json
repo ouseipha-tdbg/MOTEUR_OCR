@@ -1,0 +1,15 @@
+{
+    "typeCheckingMode": "off",
+    "reportMissingImports": "none",
+    "reportMissingModuleSource": "none",
+    "reportGeneralTypeIssues": "none",
+    "reportOptionalMemberAccess": "none",
+    "reportAttributeAccessIssue": "none",
+    "reportCallIssue": "none",
+    "reportArgumentType": "none",
+    "reportPossiblyUnboundVariable": "none",
+    "reportPrivateImportUsage": "none",
+    "venvPath": ".",
+    "venv": ".venv",
+    "exclude": ["**/__pycache__", ".venv", "uploads"]
+}

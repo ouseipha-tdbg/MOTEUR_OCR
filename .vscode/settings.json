@@ -1,0 +1,11 @@
+{
+    "python.analysis.typeCheckingMode": "off",
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingImports": "none",
+        "reportAttributeAccessIssue": "none",
+        "reportCallIssue": "none",
+        "reportArgumentType": "none",
+        "reportGeneralTypeIssues": "none"
+    },
+    "python.defaultInterpreterPath": ".venv/Scripts/python.exe"
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Zamapay OCR Lab</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Zamapay OCR Lab</h1>
+  <p class="sub">Comparateur 4 moteurs : PaddleOCR · Gemini · Nougat · GOT-OCR2</p>
+</header>
+
+<main>
+  <form id="ocr-form">
+    <div class="row">
+      <label>Type de document
+        <select name="doc_type" id="doc_type"></select>
+      </label>
+      <fieldset>
+        <legend>Moteurs</legend>
+        <div id="engines-list"></div>
+      </fieldset>
+    </div>
+
+    <div class="row">
+      <label>Recto <input type="file" name="recto" accept="image/*" required></label>
+      <label>Verso (optionnel) <input type="file" name="verso" accept="image/*"></label>
+    </div>
+
+    <button type="submit" id="run-btn">Lancer l'OCR</button>
+  </form>
+
+  <section id="status"></section>
+  <section id="field-picker"></section>
+  <section id="results"></section>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
